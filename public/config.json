@@ -1,0 +1,7 @@
+{
+    "config": {
+        "apiUrl": "/api/service",
+        "usageUrl": "/api/usage",
+        "configUrl": "/api/config"
+    }
+}

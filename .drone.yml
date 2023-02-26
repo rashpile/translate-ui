@@ -1,0 +1,17 @@
+kind: pipeline
+name: default
+
+
+steps:
+- name: docker  
+  image: plugins/docker
+  settings:
+    username: 
+      from_secret: docker_username
+    password: 
+      from_secret: docker_password    
+    repo: registry.rashpile.com.ua/translate-ui
+    registry: registry.rashpile.com.ua
+    tags: latest
+  when:
+    branch: [main]

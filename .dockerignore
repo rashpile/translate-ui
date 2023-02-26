@@ -1,0 +1,15 @@
+
+/logs/
+/target/
+/var/
+/.vscode/
+/.idea/
+/bin/
+/.git/
+
+# frontend files not needed in docker image
+/node_modules/
+/build/
+
+# source files
+Dockerfile
